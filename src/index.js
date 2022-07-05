@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css' //import bootstrap
 import './index.css';
 import App from './App';
-import Container from './components/container'
+import Container from './components/container' //import Container component
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-      <Container /> //container is main page and this is what gets called
+      <React.StrictMode>
+         <Container /> 
+      </React.StrictMode> //call Container to open app
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

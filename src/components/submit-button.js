@@ -6,4 +6,4 @@ export default class SubmitButton extends React.Component {
     }
 }
 
-//The submit button will later be added to the form component
+//The submit button will later be imported to the form component

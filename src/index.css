@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:blanchedalmond;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card-body {  /*found in login-form.js; this creates a border around the login box */
+  border-bottom: solid;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+} 
+
+.form-center { /*found in login-form.js; this centers the h3 text and the username, password, and button */
+  text-align: center;
+  justify-content: center;
+}
+
+.login { /* found in the container.js; this creates a margin between the navbar and login form*/
+  margin-top: 50px;
 }
